@@ -1,0 +1,31 @@
+# Parâmetros regulatórios/institucionais usados pela camada 2 de qualidade
+# (pipeline/qualidade/camada2_regras_negocio.py). Ficam aqui, fora do
+# código, porque mudam com a legislação (MEC/CNE) e porque quem deve
+# validar os números é o time acadêmico/regulatório, não quem programa.
+#
+# *** AJUSTAR: os valores abaixo são placeholders conservadores para o
+# pipeline não quebrar no primeiro uso — precisam ser confirmados/corrigidos
+# com o time acadêmico antes de tratar os achados de camada 2 como ERRO
+# bloqueante em produção. Até lá, considere revisar manualmente qualquer
+# achado de camada 2 na aba QUALIDADE em vez de confiar cegamente. ***
+
+# Tolerância entre CH somada das disciplinas e CH declarada no cabeçalho da
+# matriz, em horas absolutas.
+tolerancia_dif_ch_horas:
+  alerta: 10
+  erro: 40
+
+# Teto de % de carga horária EAD sobre o total, por modalidade (chave = valor
+# da pasta MODALIDADE: EAD / SEMI / PRES).
+teto_pct_ead_por_modalidade:
+  PRES: 40
+  SEMI: 70
+  EAD: 100
+
+# Piso de carga horária total do curso, por grau (chave = texto contido no
+# campo GRAU do cabeçalho da matriz — comparação é por substring, sem
+# distinguir acento/maiúsculas).
+piso_ch_por_grau:
+  BACHARELADO: 3200
+  LICENCIATURA: 3200
+  TECNOLOGO: 1600

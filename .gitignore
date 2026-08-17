@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# staging só é usado no modo Drive real (baixa arquivos antes de processar);
+# fica vazio no modo --local da demonstração, então não há nada aqui a versionar
+_staging/
+
+# credenciais — nunca devem ser commitadas
+client_secret*.json
+*.env
+
+# editor / SO
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

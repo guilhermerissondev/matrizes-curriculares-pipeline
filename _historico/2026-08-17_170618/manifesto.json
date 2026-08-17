@@ -1,0 +1,467 @@
+{
+ "gerado_em": "2026-08-17T17:06:18",
+ "arquivos": {
+  "INSTITUICAO_A\\EAD\\04 - Negocios Administracao e Direito\\administracao_bacharelado.xlsx": {
+   "md5_local": "4875b36fe5d333f92aff756f34e2567f",
+   "md5_drive": "",
+   "tamanho": 6627,
+   "modificado": "2026-08-17T17:05:17",
+   "cod_curso": "ADM-BACH",
+   "n_disciplinas": 20,
+   "ch_total": 3320.0
+  },
+  "INSTITUICAO_A\\EAD\\04 - Negocios Administracao e Direito\\gestao_comercial_tecnologo.xlsx": {
+   "md5_local": "88cabbb96f0850ac7907da6dbaff6e0f",
+   "md5_drive": "",
+   "tamanho": 6301,
+   "modificado": "2026-08-17T17:05:17",
+   "cod_curso": "GESCOM-TEC",
+   "n_disciplinas": 14,
+   "ch_total": 1680.0
+  },
+  "INSTITUICAO_A\\EAD\\04 - Negocios Administracao e Direito\\marketing_digital_tecnologo.xlsx": {
+   "md5_local": "d6cf025e8bac65aad041c5e86e69016e",
+   "md5_drive": "",
+   "tamanho": 6237,
+   "modificado": "2026-08-17T17:05:17",
+   "cod_curso": "",
+   "n_disciplinas": 13,
+   "ch_total": 1620.0
+  },
+  "INSTITUICAO_A\\EAD\\07 - Engenharia Producao e Construcao\\engenharia_producao_bacharelado.xlsx": {
+   "md5_local": "80811ef91ee411f98a82993542d006cf",
+   "md5_drive": "",
+   "tamanho": 6543,
+   "modificado": "2026-08-17T17:05:17",
+   "cod_curso": "ENGPROD-BACH",
+   "n_disciplinas": 18,
+   "ch_total": 3260.0
+  },
+  "INSTITUICAO_B\\EAD\\01 - Educacao\\pedagogia_licenciatura.xlsx": {
+   "md5_local": "db366cc30fad11f82b1e1a46c9cdf6a7",
+   "md5_drive": "",
+   "tamanho": 6483,
+   "modificado": "2026-08-17T17:05:17",
+   "cod_curso": "PED-LIC",
+   "n_disciplinas": 17,
+   "ch_total": 3320.0
+  },
+  "INSTITUICAO_B\\SEMI\\04 - Negocios Administracao e Direito\\direito_bacharelado_semi.xlsx": {
+   "md5_local": "770477c7282b928382d90c84504473c1",
+   "md5_drive": "",
+   "tamanho": 6486,
+   "modificado": "2026-08-17T17:05:17",
+   "cod_curso": "DIR-SEMI",
+   "n_disciplinas": 18,
+   "ch_total": 3300.0
+  }
+ },
+ "total_cursos_por_marca": {
+  "INSTITUICAO_A": 4,
+  "INSTITUICAO_B": 2
+ },
+ "total_disciplinas_por_marca": {
+  "INSTITUICAO_A": 65,
+  "INSTITUICAO_B": 35
+ },
+ "cursos": {
+  "INSTITUICAO_A::ADM-BACH": {
+   "CH_TOTAL": 3320.0,
+   "N_DISCIPLINAS": 20,
+   "IES": "Instituição de Ensino A",
+   "GRAU": "Bacharelado",
+   "REGIME": "Semestral",
+   "ARQUIVO": "administracao_bacharelado.xlsx"
+  },
+  "INSTITUICAO_A::GESCOM-TEC": {
+   "CH_TOTAL": 1680.0,
+   "N_DISCIPLINAS": 14,
+   "IES": "Instituição de Ensino A",
+   "GRAU": "Tecnólogo",
+   "REGIME": "Semestral",
+   "ARQUIVO": "gestao_comercial_tecnologo.xlsx"
+  },
+  "INSTITUICAO_A::ENGPROD-BACH": {
+   "CH_TOTAL": 3260.0,
+   "N_DISCIPLINAS": 18,
+   "IES": "Instituição de Ensino A",
+   "GRAU": "Bacharelado",
+   "REGIME": "Semestral",
+   "ARQUIVO": "engenharia_producao_bacharelado.xlsx"
+  },
+  "INSTITUICAO_B::PED-LIC": {
+   "CH_TOTAL": 3320.0,
+   "N_DISCIPLINAS": 17,
+   "IES": "Instituição de Ensino B",
+   "GRAU": "Licenciatura",
+   "REGIME": "Semestral",
+   "ARQUIVO": "pedagogia_licenciatura.xlsx"
+  },
+  "INSTITUICAO_B::DIR-SEMI": {
+   "CH_TOTAL": 3300.0,
+   "N_DISCIPLINAS": 18,
+   "IES": "Instituição de Ensino B",
+   "GRAU": "Bacharelado",
+   "REGIME": "Semestral",
+   "ARQUIVO": "direito_bacharelado_semi.xlsx"
+  }
+ },
+ "disciplinas": {
+  "INSTITUICAO_A::ADM-BACH::ADM001": {
+   "NOME_DISCIPLINA": "Fundamentos de Administração",
+   "CH_TOTAL": 170.0
+  },
+  "INSTITUICAO_A::ADM-BACH::ADM002": {
+   "NOME_DISCIPLINA": "Contabilidade Geral",
+   "CH_TOTAL": 170.0
+  },
+  "INSTITUICAO_A::ADM-BACH::ADM003": {
+   "NOME_DISCIPLINA": "Matemática Financeira",
+   "CH_TOTAL": 170.0
+  },
+  "INSTITUICAO_A::ADM-BACH::ADM004": {
+   "NOME_DISCIPLINA": "Economia Aplicada",
+   "CH_TOTAL": 170.0
+  },
+  "INSTITUICAO_A::ADM-BACH::ADM005": {
+   "NOME_DISCIPLINA": "Gestão de Pessoas",
+   "CH_TOTAL": 170.0
+  },
+  "INSTITUICAO_A::ADM-BACH::ADM006": {
+   "NOME_DISCIPLINA": "Marketing Institucional",
+   "CH_TOTAL": 170.0
+  },
+  "INSTITUICAO_A::ADM-BACH::ADM007": {
+   "NOME_DISCIPLINA": "Direito Empresarial",
+   "CH_TOTAL": 170.0
+  },
+  "INSTITUICAO_A::ADM-BACH::ADM008": {
+   "NOME_DISCIPLINA": "Comportamento Organizacional",
+   "CH_TOTAL": 170.0
+  },
+  "INSTITUICAO_A::ADM-BACH::ADM009": {
+   "NOME_DISCIPLINA": "Logística Empresarial",
+   "CH_TOTAL": 170.0
+  },
+  "INSTITUICAO_A::ADM-BACH::ADM010": {
+   "NOME_DISCIPLINA": "Gestão Financeira",
+   "CH_TOTAL": 170.0
+  },
+  "INSTITUICAO_A::ADM-BACH::ADM011": {
+   "NOME_DISCIPLINA": "Planejamento Estratégico",
+   "CH_TOTAL": 170.0
+  },
+  "INSTITUICAO_A::ADM-BACH::ADM012": {
+   "NOME_DISCIPLINA": "Empreendedorismo",
+   "CH_TOTAL": 170.0
+  },
+  "INSTITUICAO_A::ADM-BACH::ADM013": {
+   "NOME_DISCIPLINA": "Gestão de Processos",
+   "CH_TOTAL": 160.0
+  },
+  "INSTITUICAO_A::ADM-BACH::ADM014": {
+   "NOME_DISCIPLINA": "Estatística Aplicada",
+   "CH_TOTAL": 160.0
+  },
+  "INSTITUICAO_A::ADM-BACH::ADM015": {
+   "NOME_DISCIPLINA": "Ética Profissional",
+   "CH_TOTAL": 160.0
+  },
+  "INSTITUICAO_A::ADM-BACH::ADM016": {
+   "NOME_DISCIPLINA": "Sistemas de Informação Gerencial",
+   "CH_TOTAL": 160.0
+  },
+  "INSTITUICAO_A::ADM-BACH::ADM017": {
+   "NOME_DISCIPLINA": "Gestão da Qualidade",
+   "CH_TOTAL": 160.0
+  },
+  "INSTITUICAO_A::ADM-BACH::ADM018": {
+   "NOME_DISCIPLINA": "Negociação",
+   "CH_TOTAL": 160.0
+  },
+  "INSTITUICAO_A::ADM-BACH::ADM019": {
+   "NOME_DISCIPLINA": "Projeto Integrador",
+   "CH_TOTAL": 160.0
+  },
+  "INSTITUICAO_A::ADM-BACH::ADM020": {
+   "NOME_DISCIPLINA": "Trabalho de Conclusão de Curso",
+   "CH_TOTAL": 160.0
+  },
+  "INSTITUICAO_A::GESCOM-TEC::GES001": {
+   "NOME_DISCIPLINA": "Técnicas de Vendas",
+   "CH_TOTAL": 120.0
+  },
+  "INSTITUICAO_A::GESCOM-TEC::GES002": {
+   "NOME_DISCIPLINA": "Comportamento do Consumidor",
+   "CH_TOTAL": 120.0
+  },
+  "INSTITUICAO_A::GESCOM-TEC::GES003": {
+   "NOME_DISCIPLINA": "Gestão de Varejo",
+   "CH_TOTAL": 120.0
+  },
+  "INSTITUICAO_A::GESCOM-TEC::GES004": {
+   "NOME_DISCIPLINA": "Negociação Comercial",
+   "CH_TOTAL": 120.0
+  },
+  "INSTITUICAO_A::GESCOM-TEC::GES005": {
+   "NOME_DISCIPLINA": "Marketing Digital Aplicado",
+   "CH_TOTAL": 120.0
+  },
+  "INSTITUICAO_A::GESCOM-TEC::GES006": {
+   "NOME_DISCIPLINA": "Gestão de Equipes Comerciais",
+   "CH_TOTAL": 120.0
+  },
+  "INSTITUICAO_A::GESCOM-TEC::GES007": {
+   "NOME_DISCIPLINA": "Matemática Comercial",
+   "CH_TOTAL": 120.0
+  },
+  "INSTITUICAO_A::GESCOM-TEC::GES008": {
+   "NOME_DISCIPLINA": "Atendimento ao Cliente",
+   "CH_TOTAL": 120.0
+  },
+  "INSTITUICAO_A::GESCOM-TEC::GES009": {
+   "NOME_DISCIPLINA": "Plano de Negócios",
+   "CH_TOTAL": 120.0
+  },
+  "INSTITUICAO_A::GESCOM-TEC::GES010": {
+   "NOME_DISCIPLINA": "Legislação Comercial",
+   "CH_TOTAL": 120.0
+  },
+  "INSTITUICAO_A::GESCOM-TEC::GES011": {
+   "NOME_DISCIPLINA": "Indicadores de Desempenho Comercial",
+   "CH_TOTAL": 120.0
+  },
+  "INSTITUICAO_A::GESCOM-TEC::GES012": {
+   "NOME_DISCIPLINA": "Trade Marketing",
+   "CH_TOTAL": 120.0
+  },
+  "INSTITUICAO_A::GESCOM-TEC::GES013": {
+   "NOME_DISCIPLINA": "E-commerce",
+   "CH_TOTAL": 120.0
+  },
+  "INSTITUICAO_A::GESCOM-TEC::GES014": {
+   "NOME_DISCIPLINA": "Projeto Integrador",
+   "CH_TOTAL": 120.0
+  },
+  "INSTITUICAO_A::ENGPROD-BACH::ENG001": {
+   "NOME_DISCIPLINA": "Cálculo Aplicado",
+   "CH_TOTAL": 190.0
+  },
+  "INSTITUICAO_A::ENGPROD-BACH::ENG002": {
+   "NOME_DISCIPLINA": "Física para Engenharia",
+   "CH_TOTAL": 190.0
+  },
+  "INSTITUICAO_A::ENGPROD-BACH::ENG003": {
+   "NOME_DISCIPLINA": "Desenho Técnico",
+   "CH_TOTAL": 180.0
+  },
+  "INSTITUICAO_A::ENGPROD-BACH::ENG004": {
+   "NOME_DISCIPLINA": "Gestão da Produção",
+   "CH_TOTAL": 180.0
+  },
+  "INSTITUICAO_A::ENGPROD-BACH::ENG005": {
+   "NOME_DISCIPLINA": "Logística Industrial",
+   "CH_TOTAL": 180.0
+  },
+  "INSTITUICAO_A::ENGPROD-BACH::ENG006": {
+   "NOME_DISCIPLINA": "Pesquisa Operacional",
+   "CH_TOTAL": 180.0
+  },
+  "INSTITUICAO_A::ENGPROD-BACH::ENG007": {
+   "NOME_DISCIPLINA": "Controle de Qualidade",
+   "CH_TOTAL": 180.0
+  },
+  "INSTITUICAO_A::ENGPROD-BACH::ENG008": {
+   "NOME_DISCIPLINA": "Ergonomia e Segurança do Trabalho",
+   "CH_TOTAL": 180.0
+  },
+  "INSTITUICAO_A::ENGPROD-BACH::ENG009": {
+   "NOME_DISCIPLINA": "Gestão de Projetos",
+   "CH_TOTAL": 180.0
+  },
+  "INSTITUICAO_A::ENGPROD-BACH::ENG010": {
+   "NOME_DISCIPLINA": "Planejamento e Controle da Produção",
+   "CH_TOTAL": 180.0
+  },
+  "INSTITUICAO_A::ENGPROD-BACH::ENG011": {
+   "NOME_DISCIPLINA": "Automação Industrial",
+   "CH_TOTAL": 180.0
+  },
+  "INSTITUICAO_A::ENGPROD-BACH::ENG012": {
+   "NOME_DISCIPLINA": "Cadeia de Suprimentos",
+   "CH_TOTAL": 180.0
+  },
+  "INSTITUICAO_A::ENGPROD-BACH::ENG013": {
+   "NOME_DISCIPLINA": "Sustentabilidade Industrial",
+   "CH_TOTAL": 180.0
+  },
+  "INSTITUICAO_A::ENGPROD-BACH::ENG014": {
+   "NOME_DISCIPLINA": "Manutenção Industrial",
+   "CH_TOTAL": 180.0
+  },
+  "INSTITUICAO_A::ENGPROD-BACH::ENG015": {
+   "NOME_DISCIPLINA": "Engenharia Econômica",
+   "CH_TOTAL": 180.0
+  },
+  "INSTITUICAO_A::ENGPROD-BACH::ENG016": {
+   "NOME_DISCIPLINA": "Simulação de Processos",
+   "CH_TOTAL": 180.0
+  },
+  "INSTITUICAO_A::ENGPROD-BACH::ENG017": {
+   "NOME_DISCIPLINA": "Projeto Integrador",
+   "CH_TOTAL": 180.0
+  },
+  "INSTITUICAO_A::ENGPROD-BACH::ENG018": {
+   "NOME_DISCIPLINA": "Trabalho de Conclusão de Curso",
+   "CH_TOTAL": 180.0
+  },
+  "INSTITUICAO_B::PED-LIC::PED001": {
+   "NOME_DISCIPLINA": "Fundamentos da Educação",
+   "CH_TOTAL": 200.0
+  },
+  "INSTITUICAO_B::PED-LIC::PED002": {
+   "NOME_DISCIPLINA": "Psicologia da Aprendizagem",
+   "CH_TOTAL": 200.0
+  },
+  "INSTITUICAO_B::PED-LIC::PED003": {
+   "NOME_DISCIPLINA": "Didática Geral",
+   "CH_TOTAL": 200.0
+  },
+  "INSTITUICAO_B::PED-LIC::PED004": {
+   "NOME_DISCIPLINA": "Educação Infantil",
+   "CH_TOTAL": 200.0
+  },
+  "INSTITUICAO_B::PED-LIC::PED005": {
+   "NOME_DISCIPLINA": "Alfabetização e Letramento",
+   "CH_TOTAL": 200.0
+  },
+  "INSTITUICAO_B::PED-LIC::PED006": {
+   "NOME_DISCIPLINA": "Currículo e Avaliação",
+   "CH_TOTAL": 200.0
+  },
+  "INSTITUICAO_B::PED-LIC::PED007": {
+   "NOME_DISCIPLINA": "Libras",
+   "CH_TOTAL": 200.0
+  },
+  "INSTITUICAO_B::PED-LIC::PED008": {
+   "NOME_DISCIPLINA": "Educação Especial e Inclusiva",
+   "CH_TOTAL": 200.0
+  },
+  "INSTITUICAO_B::PED-LIC::PED009": {
+   "NOME_DISCIPLINA": "Gestão Escolar",
+   "CH_TOTAL": 200.0
+  },
+  "INSTITUICAO_B::PED-LIC::PED010": {
+   "NOME_DISCIPLINA": "Metodologia do Ensino de Matemática",
+   "CH_TOTAL": 190.0
+  },
+  "INSTITUICAO_B::PED-LIC::PED011": {
+   "NOME_DISCIPLINA": "Metodologia do Ensino de Ciências",
+   "CH_TOTAL": 190.0
+  },
+  "INSTITUICAO_B::PED-LIC::PED012": {
+   "NOME_DISCIPLINA": "Tecnologias na Educação",
+   "CH_TOTAL": 190.0
+  },
+  "INSTITUICAO_B::PED-LIC::PED013": {
+   "NOME_DISCIPLINA": "Estágio Supervisionado I",
+   "CH_TOTAL": 190.0
+  },
+  "INSTITUICAO_B::PED-LIC::PED014": {
+   "NOME_DISCIPLINA": "Estágio Supervisionado II",
+   "CH_TOTAL": 190.0
+  },
+  "INSTITUICAO_B::PED-LIC::PED015": {
+   "NOME_DISCIPLINA": "Políticas Educacionais",
+   "CH_TOTAL": 190.0
+  },
+  "INSTITUICAO_B::PED-LIC::PED016": {
+   "NOME_DISCIPLINA": "Educação de Jovens e Adultos",
+   "CH_TOTAL": 190.0
+  },
+  "INSTITUICAO_B::PED-LIC::PED017": {
+   "NOME_DISCIPLINA": "Trabalho de Conclusão de Curso",
+   "CH_TOTAL": 190.0
+  },
+  "INSTITUICAO_B::DIR-SEMI::DIR001": {
+   "NOME_DISCIPLINA": "Introdução ao Estudo do Direito",
+   "CH_TOTAL": 190.0
+  },
+  "INSTITUICAO_B::DIR-SEMI::DIR002": {
+   "NOME_DISCIPLINA": "Direito Constitucional",
+   "CH_TOTAL": 190.0
+  },
+  "INSTITUICAO_B::DIR-SEMI::DIR003": {
+   "NOME_DISCIPLINA": "Direito Civil",
+   "CH_TOTAL": 190.0
+  },
+  "INSTITUICAO_B::DIR-SEMI::DIR004": {
+   "NOME_DISCIPLINA": "Direito Penal",
+   "CH_TOTAL": 190.0
+  },
+  "INSTITUICAO_B::DIR-SEMI::DIR005": {
+   "NOME_DISCIPLINA": "Direito Administrativo",
+   "CH_TOTAL": 190.0
+  },
+  "INSTITUICAO_B::DIR-SEMI::DIR006": {
+   "NOME_DISCIPLINA": "Direito do Trabalho",
+   "CH_TOTAL": 190.0
+  },
+  "INSTITUICAO_B::DIR-SEMI::DIR007": {
+   "NOME_DISCIPLINA": "Direito Empresarial",
+   "CH_TOTAL": 180.0
+  },
+  "INSTITUICAO_B::DIR-SEMI::DIR008": {
+   "NOME_DISCIPLINA": "Direito Tributário",
+   "CH_TOTAL": 180.0
+  },
+  "INSTITUICAO_B::DIR-SEMI::DIR009": {
+   "NOME_DISCIPLINA": "Processo Civil",
+   "CH_TOTAL": 180.0
+  },
+  "INSTITUICAO_B::DIR-SEMI::DIR010": {
+   "NOME_DISCIPLINA": "Processo Penal",
+   "CH_TOTAL": 180.0
+  },
+  "INSTITUICAO_B::DIR-SEMI::DIR011": {
+   "NOME_DISCIPLINA": "Direito Internacional",
+   "CH_TOTAL": 180.0
+  },
+  "INSTITUICAO_B::DIR-SEMI::DIR012": {
+   "NOME_DISCIPLINA": "Ética e Deontologia Jurídica",
+   "CH_TOTAL": 180.0
+  },
+  "INSTITUICAO_B::DIR-SEMI::DIR013": {
+   "NOME_DISCIPLINA": "Direito do Consumidor",
+   "CH_TOTAL": 180.0
+  },
+  "INSTITUICAO_B::DIR-SEMI::DIR014": {
+   "NOME_DISCIPLINA": "Direitos Humanos",
+   "CH_TOTAL": 180.0
+  },
+  "INSTITUICAO_B::DIR-SEMI::DIR015": {
+   "NOME_DISCIPLINA": "Prática Jurídica I",
+   "CH_TOTAL": 180.0
+  },
+  "INSTITUICAO_B::DIR-SEMI::DIR016": {
+   "NOME_DISCIPLINA": "Prática Jurídica II",
+   "CH_TOTAL": 180.0
+  },
+  "INSTITUICAO_B::DIR-SEMI::DIR017": {
+   "NOME_DISCIPLINA": "Filosofia do Direito",
+   "CH_TOTAL": 180.0
+  },
+  "INSTITUICAO_B::DIR-SEMI::DIR018": {
+   "NOME_DISCIPLINA": "Trabalho de Conclusão de Curso",
+   "CH_TOTAL": 180.0
+  }
+ },
+ "depara_confirmado": {
+  "INSTITUICAO_A::gestao_comercial_tecnologo.xlsx": "GESCOM-TEC"
+ },
+ "pendentes_consecutivos": {
+  "INSTITUICAO_A::EAD::04 - Negocios Administracao e Direito::marketing_digital_tecnologo.xlsx": 1
+ },
+ "tipo": "manual",
+ "motivo": "carga inicial (dados de exemplo)"
+}

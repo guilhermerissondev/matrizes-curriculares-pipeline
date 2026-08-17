@@ -1,0 +1,22 @@
+============================================================================================
+PIPELINE DE MATRIZES CURRICULARES
+============================================================================================
+tipo: MANUAL  |  motivo: atualizacao semanal simulada (dados de exemplo)
+progresso: 99% — 
+snapshot anterior: 2026-08-17_170618
+de-para carregado: 1 códigos confirmados
+modo: LOCAL (dados_exemplo/v2) — Drive não será acessado
+  INSTITUICAO_A    3 cursos |    52 disciplinas | 1 achados de qualidade (1 ERRO, 0 ALERTA)
+  INSTITUICAO_B    3 cursos |    50 disciplinas | 3 achados de qualidade (2 ERRO, 1 ALERTA)
+
+============================================================================================
+RESUMO
+============================================================================================
+snapshot publicado: C:\Users\48960380881\Downloads\matrizes-curriculares-pipeline\_historico\2026-08-17_170628
+código PENDENTE ............ 1 linha(s) em _DE_PARA_CURSOS.xlsx
+
+*** FALHA: achados de camada 4 (integridade do lote) — algo estrutural pode ter dado errado (download parcial, queda abrupta no total geral). Ver aba QUALIDADE. ***
+
+trabalho real concluído em 0.3s
+progresso: 100% — aguardando tempo mínimo de execução...
+execução finalizada em 1.0s (piso mínimo: 0.0 min)

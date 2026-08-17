@@ -1,0 +1,44 @@
+# Configuração do pipeline. Nada aqui é regra de negócio acadêmica/regulatória
+# (isso fica em regras_negocio.yaml, separado de propósito).
+
+# Nome da variável de ambiente que guarda a API key do Google Cloud usada
+# para acessar o Drive público. NUNCA coloque a key aqui neste arquivo — ele
+# pode acabar sendo compartilhado (e este repositório é público). Defina no
+# Windows com:
+#   setx DRIVE_API_KEY "sua-key-aqui"
+# (feche e reabra o terminal / Task Scheduler depois de definir)
+api_key_env_var: "DRIVE_API_KEY"
+
+# "marcas" = instituições parceiras cujas matrizes o pipeline consolida.
+# Os nomes e IDs de pasta abaixo são placeholders de exemplo — substitua
+# pelos das suas próprias instituições/pastas. Para rodar a demonstração
+# com dados sintéticos (modo --local, sem tocar o Drive) os valores aqui
+# não importam, só precisam existir com os mesmos nomes usados em
+# dados_exemplo/ (ver README).
+marcas:
+  INSTITUICAO_A:
+    # ID da subpasta desta instituição dentro da pasta raiz compartilhada no
+    # Drive (o trecho da URL depois de /folders/). Placeholder — preencha
+    # com o ID real da sua pasta.
+    drive_folder_id: "COLOQUE_AQUI_O_ID_DA_PASTA_A"
+    # Regex opcional para validar COD_DISCIPLINA na camada 1 de qualidade.
+    # Deixe null até termos exemplos suficientes para definir o padrão real.
+    padrao_cod_disciplina: null
+  INSTITUICAO_B:
+    drive_folder_id: "COLOQUE_AQUI_O_ID_DA_PASTA_B"
+    padrao_cod_disciplina: null
+
+retencao:
+  # Snapshots consolidados (xlsx/csv/json/manifesto/changelog) ficam pra
+  # sempre — são leves. Só a subpasta RAW/ (matrizes brutas baixadas do
+  # Drive, se você optar por guardá-las dentro do snapshot) é podada,
+  # mantendo só as N execuções mais recentes.
+  manter_raw_ultimos_n_snapshots: 8
+
+qualidade:
+  camada3:
+    variacao_ch_pct: 20            # % de variação de CH de curso/disciplina que dispara ALERTA
+    queda_disciplinas_pct: 30      # % de queda no nº de disciplinas de um curso
+  camada4:
+    queda_total_pct: 15            # % de queda no total geral de cursos que dispara ERRO
+    execucoes_pendente_alerta: 3   # nº de execuções seguidas PENDENTE antes de alertar

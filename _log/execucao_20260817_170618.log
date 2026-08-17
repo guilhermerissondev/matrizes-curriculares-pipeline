@@ -1,0 +1,22 @@
+============================================================================================
+PIPELINE DE MATRIZES CURRICULARES
+============================================================================================
+tipo: MANUAL  |  motivo: carga inicial (dados de exemplo)
+progresso: 99% — 
+snapshot anterior: (nenhum — primeira execução)
+de-para carregado: 1 códigos confirmados
+modo: LOCAL (dados_exemplo/v1) — Drive não será acessado
+  INSTITUICAO_A    4 cursos |    65 disciplinas | 1 achados de qualidade (1 ERRO, 0 ALERTA)
+  INSTITUICAO_B    2 cursos |    35 disciplinas | 1 achados de qualidade (1 ERRO, 0 ALERTA)
+
+============================================================================================
+RESUMO
+============================================================================================
+snapshot publicado: C:\Users\48960380881\Downloads\matrizes-curriculares-pipeline\_historico\2026-08-17_170618
+código PENDENTE ............ 2 linha(s) em _DE_PARA_CURSOS.xlsx
+
+*** este snapshot tem achados de severidade ERRO em disciplinas/cursos específicos — revisar aba QUALIDADE quando puder. Não bloqueia a execução (não é falha sistêmica). ***
+
+trabalho real concluído em 0.2s
+progresso: 100% — aguardando tempo mínimo de execução...
+execução finalizada em 1.0s (piso mínimo: 0.0 min)
